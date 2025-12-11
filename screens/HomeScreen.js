@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
   container: { 
     flex: 1, 
     padding: 10,
-    backgroundColor: "#F8F9FA"   // Added a light background
+    backgroundColor: "#F4F5F7"   // Added subtle background for UI improvement
 }
 
 });
