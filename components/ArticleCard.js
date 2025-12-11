@@ -1,3 +1,4 @@
+// ArticleCard renders each news item with image and short description
 import React from 'react';
 import { View, Text, Image, TouchableOpacity, StyleSheet } from 'react-native';
 
