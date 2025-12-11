@@ -1,3 +1,4 @@
+// Detail Screen: Shows full article info and allows saving to favorites
 import React from 'react';
 import { View, Text, Image, ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
 import { saveFavorite } from '../utils/storage';
@@ -23,7 +24,12 @@ export default function DetailScreen({ route }) {
 
 const styles = StyleSheet.create({
   container: { padding: 15 },
-  image: { width: '100%', height: 220, borderRadius: 10,  marginBottom: 12   // Added spacing },
+  image: { 
+  width: "100%", 
+  height: 220, 
+  borderRadius: 10,
+  marginBottom: 15   // Added spacing between image and title
+},
   title: { fontSize: 20, fontWeight: 'bold', marginTop: 10 },
   author: { color: 'gray', marginBottom: 10 },
   content: { fontSize: 16, marginTop: 10 },
