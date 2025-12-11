@@ -21,8 +21,16 @@ function HomeStack() {
 export default function TabNavigator() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="Home" component={HomeStack} />
-      <Tab.Screen name="Favorites" component={FavoritesScreen} />
+      <Tab.Screen 
+  name="Home" 
+  component={HomeStack}
+  options={{ tabBarLabel: "Latest" }}
+/>
+      <Tab.Screen 
+  name="Favorites" 
+  component={FavoritesScreen}
+  options={{ tabBarLabel: "Saved" }}
+/>
       <Tab.Screen name="Profile" component={ProfileScreen} />
     </Tab.Navigator>
   );
