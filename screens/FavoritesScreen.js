@@ -23,11 +23,11 @@ export default function FavoritesScreen({ navigation }) {
         renderItem={({ item }) => (
           <ArticleCard article={item} onPress={() => navigation.navigate('Details', { article: item })} />
         )}
-        ListEmptyComponent={() => <Text style={styles.empty}>No favorites saved.</Text>}
-      />
-    </View>
-  );
-}
+        ListEmptyComponent={() => (
+  <Text style={{ marginTop: 20, textAlign: "center", color: "gray" }}>
+    You haven’t saved anything yet.
+  </Text>
+)}
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 10 },
