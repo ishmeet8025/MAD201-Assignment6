@@ -23,7 +23,7 @@ export default function DetailScreen({ route }) {
 
 const styles = StyleSheet.create({
   container: { padding: 15 },
-  image: { width: '100%', height: 220, borderRadius: 10 },
+  image: { width: '100%', height: 220, borderRadius: 10,  marginBottom: 12   // Added spacing },
   title: { fontSize: 20, fontWeight: 'bold', marginTop: 10 },
   author: { color: 'gray', marginBottom: 10 },
   content: { fontSize: 16, marginTop: 10 },
