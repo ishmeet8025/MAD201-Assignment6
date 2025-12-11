@@ -19,14 +19,6 @@ The app fetches **real-time technology news** from the *Inshorts API*, displays 
 * View saved favorites even after restarting the app
 * Navigate between screens using a Bottom Tab Navigator
 
-This project demonstrates skills in:
-
-* API integration
-* State management
-* Navigation
-* AsyncStorage for local persistence
-* Folder structure, components, and modular code design
-
 ---
 
 ## ⭐ **Features**
