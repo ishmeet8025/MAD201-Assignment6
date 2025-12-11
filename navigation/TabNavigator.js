@@ -20,13 +20,13 @@ function HomeStack() {
 
 export default function TabNavigator() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen 
+  <Tab.Navigator>
+     <Tab.Screen 
   name="Home" 
   component={HomeStack}
   options={{ tabBarLabel: "Latest" }}
 />
-      <Tab.Screen 
+ <Tab.Screen 
   name="Favorites" 
   component={FavoritesScreen}
   options={{ tabBarLabel: "Saved" }}
