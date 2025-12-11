@@ -1,3 +1,4 @@
+// Fetch technology news when the Home screen loads
 import React, { useEffect, useState } from 'react';
 import { View, FlatList, ActivityIndicator, StyleSheet } from 'react-native';
 import axios from 'axios';
@@ -30,4 +31,10 @@ export default function HomeScreen({ navigation }) {
 
 const styles = StyleSheet.create({
   container: { flex: 1, padding: 10 }
+  container: { 
+    flex: 1, 
+    padding: 10,
+    backgroundColor: "#F8F9FA"   // Added a light background
+}
+
 });
